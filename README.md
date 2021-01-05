@@ -50,7 +50,11 @@ https://dynamics.microsoft.com/en-us/business-central/overview/
  - Password - указать пароль
  - Contact E Mail For Lets Encrypt - укажите адрес электронной почты, и тогда для виртуальной машины сгенерируется бесплатный сертификат Lets Encrypt.
  
+![aka.ms/getbc template parameters](images/azure-template.png)
+ 
 После успешного создания машины по ее внешнему адресу, который можно посмотреть в свойствах (напр., http://acad-test.westeurope.cloudapp.azure.com/) будет доступен статус установки и, затем, все ссылки для подключения.
+
+![Sandbox landing page](images/azure-landing-page.png)
 
 В свойствах виртуальной машины ее размер можно затем уменьшить до B2s или B2ms, что позволит еще уменьшить потребление кредита.
 
